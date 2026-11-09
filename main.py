@@ -12,7 +12,7 @@ categories = categories.div.ul
 categories = categories.find_all("a")
 
 category_links = [category['href'] for category in categories]
-with open("category_links.json", "w", encoding="utf-8") as file:
+with open("jsons/category_links.json", "w", encoding="utf-8") as file:
     json.dump(category_links, file, indent=2)
 
 all_subcategory_links = []
@@ -26,7 +26,7 @@ for category_link in category_links:
     subcategory_links = category_page_content.find_all("a", {"title" : "View Range"})
     subcategory_links = [subcategory_link["href"] for subcategory_link in subcategory_links]
     all_subcategory_links.extend(subcategory_links)
-    with open("sub_category_links.json", "w", encoding="utf-8") as file:
+    with open("jsons/sub_category_links.json", "w", encoding="utf-8") as file:
         json.dump(all_subcategory_links, file, indent=2) 
 
 product_page_links = [] # ovo su sad sub_sub_category, dalja podela od all_subcategory_links
@@ -40,5 +40,5 @@ for link in all_subcategory_links:
     inner_links = inner_category_page_content.find_all("a", {"class" : "MIn"})
     inner_links = [inner_link["href"] for inner_link in inner_links]
     product_page_links.extend(inner_links)
-    with open("inner_product_links.json", "w", encoding="utf-8") as file:
+    with open("jsons/inner_product_links.json", "w", encoding="utf-8") as file:
         json.dump(product_page_links, file, indent=2)
