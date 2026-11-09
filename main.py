@@ -29,7 +29,7 @@ for category_link in category_links:
     with open("json_files/sub_category_links.json", "w", encoding="utf-8") as file:
         json.dump(all_subcategory_links, file, indent=2) 
 
-product_page_links = [] # ovo su sad sub_sub_category, dalja podela od all_subcategory_links
+product_page_links = []
 counter = 0
 for link in all_subcategory_links:
     counter += 1
@@ -42,19 +42,3 @@ for link in all_subcategory_links:
     product_page_links.extend(inner_links)
     with open("json_files/inner_product_links.json", "w", encoding="utf-8") as file:
         json.dump(product_page_links, file, indent=2)
-
-####################################################################################################
-
-# with open("json_files/inner_product_links.json", "r", encoding="utf-8") as file:
-#     product_page_links = json.load(file)
-
-for products_link in product_page_links:
-    product_table_page = requests.get(products_link, impersonate="chrome", timeout=60)
-    product_table_content = BeautifulSoup(product_table_page.text, 'html.parser')
-    table = product_table_content.find("div", {"class" : "Table"})
-    table_off_rows = table.find_all("div", {"class" : "off"})
-    table_alt_rows = table.find_all("div", {"class" : "alt"})
-    break
-
-print(table_off_rows)  
-
