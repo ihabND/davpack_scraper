@@ -12,10 +12,20 @@ for products_link in product_page_links:
     # table_off_rows = table.find_all("div", {"class" : "off"})
     # table_alt_rows = table.find_all("div", {"class" : "alt"})
     product_codes = table.find_all("div", {"class" : "Code"})
-    product_codes = [code.span for code in product_codes]
+    product_codes = [code.span.text for code in product_codes]
+
     product_sizes = table.find_all("div", {"class" : "Answer_DROPDOWN"})
-    product_sizes = [code.span for code in product_sizes]
+    product_sizes = [code.span.text for code in product_sizes]
+
+    product_prices = table.find_all("div", {"class" : "Answer_DROPDOWN4"})
+    product_prices = [code.span.text for code in product_prices]
+
+    product_packet_size = table.find_all("div", {"class" : "UnitDesc_Code"})
+    product_packet_size = [code.span.text for code in product_packet_size]
+
     break
 
 print(product_codes)  
 print(product_sizes)
+print(product_prices)
+print(product_packet_size)
