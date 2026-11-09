@@ -28,6 +28,7 @@ for products_link in product_page_links:
 product_info = zip(product_codes, product_sizes, product_prices, product_packet_size)
 product_info = list(product_info)
 
+# samo petlja umesto ovog ispod
 box = {"code" : product_info[0][0], # {'code': 'AEB020', 'size': '152 x 152 x 152', 'price': '0.18', 'packet_size': '25'}
        "size" : product_info[0][1],
        "price" : product_info[0][2],
