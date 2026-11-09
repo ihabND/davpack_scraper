@@ -25,7 +25,10 @@ for products_link in product_page_links:
 
     break
 
-print(product_codes)  
-print(product_sizes)
-print(product_prices)
-print(product_packet_size)
+product_info = zip(product_codes, product_sizes, product_prices, product_packet_size)
+print(list(product_info))
+
+# print(product_codes)  
+# print(product_sizes)
+# print(product_prices)
+# print(product_packet_size)
