@@ -112,5 +112,2507 @@
     "size": "610 x 457 x 457",
     "price": "1.65",
     "packet_size": "20"
+  },
+  {
+    "code": "AEBD001",
+    "size": "200 x 140 x 140",
+    "price": "25%",
+    "packet_size": "15"
+  },
+  {
+    "code": "AEBD002",
+    "size": "200 x 200 x 200",
+    "price": "",
+    "packet_size": "15"
+  },
+  {
+    "code": "AEBD003",
+    "size": "229 x 152 x 152",
+    "price": "",
+    "packet_size": "15"
+  },
+  {
+    "code": "AEBD004",
+    "size": "254 x 203 x 152",
+    "price": "",
+    "packet_size": "15"
+  },
+  {
+    "code": "AEBD005",
+    "size": "305 x 229 x 152",
+    "price": "25%",
+    "packet_size": "15"
+  },
+  {
+    "code": "AEBD006",
+    "size": "305 x 229 x 229",
+    "price": "",
+    "packet_size": "15"
+  },
+  {
+    "code": "AEBD010",
+    "size": "305 x 305 x 305",
+    "price": "25%",
+    "packet_size": "15"
+  },
+  {
+    "code": "AEBD020",
+    "size": "356 x 356 x 356",
+    "price": "25%",
+    "packet_size": "15"
+  },
+  {
+    "code": "AEBD028",
+    "size": "406 x 305 x 215",
+    "price": "25%",
+    "packet_size": "15"
+  },
+  {
+    "code": "AEBD030",
+    "size": "406 x 406 x 406",
+    "price": "25%",
+    "packet_size": "15"
+  },
+  {
+    "code": "AEBD040",
+    "size": "457 x 305 x 305",
+    "price": "",
+    "packet_size": "15"
+  },
+  {
+    "code": "AEBD050",
+    "size": "457 x 457 x 457",
+    "price": "",
+    "packet_size": "15"
+  },
+  {
+    "code": "ASW00",
+    "size": "102 x 102 x 102",
+    "price": "0.30",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW01",
+    "size": "127 x 127 x 127",
+    "price": "0.41",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW02",
+    "size": "140 x 140 x 76",
+    "price": "0.54",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW47",
+    "size": "152 x 127 x 102",
+    "price": "0.29",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW03",
+    "size": "152 x 152 x 152",
+    "price": "0.43",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW04",
+    "size": "178 x 140 x 76",
+    "price": "0.46",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW30",
+    "size": "178 x 178 x 178",
+    "price": "0.70",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW05",
+    "size": "180 x 130 x 100",
+    "price": "0.53",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW46",
+    "size": "180 x 130 x 120",
+    "price": "0.57",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW123",
+    "size": "200 x 100 x 100",
+    "price": "0.44",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW92",
+    "size": "200 x 140 x 140",
+    "price": "0.35",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW158",
+    "size": "200 x 190 x 165",
+    "price": "0.45",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW94",
+    "size": "200 x 200 x 110",
+    "price": "0.56",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW48",
+    "size": "203 x 152 x 102",
+    "price": "0.64",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW49",
+    "size": "203 x 153 x 152",
+    "price": "0.43",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW45",
+    "size": "203 x 203 x 203",
+    "price": "0.53",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW159",
+    "size": "215 x 150 x 55",
+    "price": "0.66",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW160",
+    "size": "215 x 150 x 105",
+    "price": "0.65",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW337B",
+    "size": "215 x 180 x 105",
+    "price": "0.66",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW31",
+    "size": "229 x 152 x 152",
+    "price": "0.42",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW163",
+    "size": "229 x 165 x 140",
+    "price": "0.60",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW07",
+    "size": "229 x 229 x 127",
+    "price": "0.62",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW143",
+    "size": "229 x 229 x 140",
+    "price": "0.71",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW164",
+    "size": "230 x 190 x 120",
+    "price": "0.66",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW165",
+    "size": "230 x 190 x 160",
+    "price": "0.74",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW124",
+    "size": "250 x 100 x 100",
+    "price": "0.57",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASB251",
+    "size": "250 x 150 x 100",
+    "price": "0.47",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW126",
+    "size": "250 x 150 x 150",
+    "price": "0.60",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW285B",
+    "size": "250 x 150 x 300",
+    "price": "0.83",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW96",
+    "size": "250 x 250 x 190",
+    "price": "0.77",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW09",
+    "size": "254 x 203 x 203",
+    "price": "0.51",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW95",
+    "size": "254 x 216 x 152",
+    "price": "0.58",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW50",
+    "size": "254 x 254 x 102",
+    "price": "0.68",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW10",
+    "size": "254 x 254 x 254",
+    "price": "0.86",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW167",
+    "size": "260 x 200 x 180",
+    "price": "0.74",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW97",
+    "size": "270 x 130 x 145",
+    "price": "0.45",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW191",
+    "size": "270 x 180 x 345",
+    "price": "0.77",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW99",
+    "size": "270 x 190 x 120",
+    "price": "0.57",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW100",
+    "size": "270 x 260 x 290",
+    "price": "0.80",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW51",
+    "size": "280 x 229 x 203",
+    "price": "1.23",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW127",
+    "size": "300 x 100 x 100",
+    "price": "0.50",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW128",
+    "size": "300 x 150 x 100",
+    "price": "0.70",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW129",
+    "size": "300 x 150 x 150",
+    "price": "0.74",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASB302",
+    "size": "300 x 200 x 100",
+    "price": "0.74",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASB303",
+    "size": "300 x 300 x 100",
+    "price": "0.86",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW144",
+    "size": "300 x 300 x 200",
+    "price": "1.00",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW343B",
+    "size": "300 x 300 x 300",
+    "price": "1.08",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW32",
+    "size": "305 x 203 x 178",
+    "price": "0.61",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW192",
+    "size": "305 x 215 x 80",
+    "price": "0.47",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW193",
+    "size": "305 x 215 x 140",
+    "price": "0.47",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW33",
+    "size": "305 x 229 x 102",
+    "price": "0.45",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW34",
+    "size": "305 x 229 x 127",
+    "price": "0.47",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW11",
+    "size": "305 x 229 x 152",
+    "price": "0.50",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW35",
+    "size": "305 x 229 x 178",
+    "price": "0.55",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW12",
+    "size": "305 x 229 x 229",
+    "price": "0.46",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW52",
+    "size": "305 x 229 x 279",
+    "price": "0.86",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW36",
+    "size": "305 x 254 x 203",
+    "price": "0.87",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW14",
+    "size": "305 x 305 x 152",
+    "price": "0.96",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW15",
+    "size": "305 x 305 x 305",
+    "price": "1.09",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW170",
+    "size": "310 x 215 x 55",
+    "price": "0.44",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW101",
+    "size": "310 x 215 x 100",
+    "price": "0.48",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW194",
+    "size": "320 x 240 x110",
+    "price": "0.93",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW174",
+    "size": "320 x 250 x 180",
+    "price": "0.94",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW278B",
+    "size": "340 x 160 x 290",
+    "price": "1.11",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW131",
+    "size": "350 x 100 x 100",
+    "price": "0.90",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW132",
+    "size": "350 x 150 x 100",
+    "price": "0.92",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW133",
+    "size": "350 x 150 x 150",
+    "price": "0.93",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW130",
+    "size": "350 x 175 x 175",
+    "price": "0.96",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW197",
+    "size": "350 x 230 x 140",
+    "price": "1.05",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW175",
+    "size": "350 x 230 x 250",
+    "price": "1.08",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW54",
+    "size": "350 x 250 x 100",
+    "price": "0.94",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW93",
+    "size": "350 x 250 x 250",
+    "price": "1.15",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW55",
+    "size": "350 x 270 x 140",
+    "price": "0.76",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW199",
+    "size": "350 x 300 x 150",
+    "price": "1.07",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW104",
+    "size": "350 x 300 x 200",
+    "price": "0.95",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW356",
+    "size": "350 x 300 x 250",
+    "price": "1.10",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW200",
+    "size": "350 x 300 x 300",
+    "price": "1.10",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW105",
+    "size": "350 x 350 x 200",
+    "price": "1.03",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW56",
+    "size": "350 x 350 x 250",
+    "price": "1.14",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW57B",
+    "size": "350 x 350 x 350",
+    "price": "1.34",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW106",
+    "size": "360 x 220 x 180",
+    "price": "1.03",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW255B",
+    "size": "360 x 240 x 110",
+    "price": "1.04",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW107",
+    "size": "360 x 270 x 160",
+    "price": "1.61",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW256B",
+    "size": "370 x 230 x 120",
+    "price": "1.04",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW18",
+    "size": "375 x 280 x 325",
+    "price": "1.09",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW224B",
+    "size": "375 x 375 x 225",
+    "price": "1.26",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW177",
+    "size": "380 x 254 x 254",
+    "price": "0.66",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW39",
+    "size": "380 x 305 x 305",
+    "price": "1.30",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW134",
+    "size": "400 x 150 x 150",
+    "price": "0.83",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW135",
+    "size": "400 x 200 x 100",
+    "price": "1.00",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW136",
+    "size": "400 x 200 x 200",
+    "price": "1.09",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASB425",
+    "size": "400 x 250 x 150",
+    "price": "1.13",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASB403",
+    "size": "400 x 300 x 100",
+    "price": "0.97",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW215B",
+    "size": "400 x 300 x 400",
+    "price": "1.24",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW60",
+    "size": "400 x 305 x 180",
+    "price": "1.09",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW109",
+    "size": "400 x 330 x 300",
+    "price": "1.32",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW225B",
+    "size": "400 x 350 x 250",
+    "price": "1.33",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW20",
+    "size": "400 x 370 x 260",
+    "price": "1.48",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASB404",
+    "size": "400 x 400 x 100",
+    "price": "1.52",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW61",
+    "size": "400 x 400 x 200",
+    "price": "1.83",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW21",
+    "size": "406 x 406 x 406",
+    "price": "1.41",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW183",
+    "size": "430 x 300 x 150",
+    "price": "1.03",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW184",
+    "size": "430 x 310 x 250",
+    "price": "1.36",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW28",
+    "size": "430 x 350 x 200",
+    "price": "1.46",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW41",
+    "size": "432 x 305 x 305",
+    "price": "1.30",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW22",
+    "size": "445 x 375 x 155",
+    "price": "1.11",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW138",
+    "size": "450 x 150 x 100",
+    "price": "0.56",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW139",
+    "size": "450 x 150 x 150",
+    "price": "1.05",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW227B",
+    "size": "450 x 300 x 300",
+    "price": "1.54",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASB454",
+    "size": "457 x 400 x 150",
+    "price": "1.39",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW89",
+    "size": "457 x 254 x 102",
+    "price": "0.66",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW90",
+    "size": "457 x 254 x 127",
+    "price": "0.72",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW211",
+    "size": "457 x 254 x 203",
+    "price": "0.92",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW86",
+    "size": "457 x 305 x 74",
+    "price": "0.86",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW87",
+    "size": "457 x 305 x 127",
+    "price": "0.92",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW23",
+    "size": "457 x 305 x 152",
+    "price": "0.94",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW85",
+    "size": "457 x 305 x 178",
+    "price": "1.10",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW88",
+    "size": "457 x 305 x 203",
+    "price": "1.17",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW43",
+    "size": "457 x 457 x 254",
+    "price": "1.89",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW76",
+    "size": "457 x 457 x 305",
+    "price": "2.04",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW77",
+    "size": "457 x 457 x 457",
+    "price": "2.43",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW228B",
+    "size": "475 x 275 x 325",
+    "price": "1.43",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW67",
+    "size": "480 x 360 x 300",
+    "price": "1.92",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASB503",
+    "size": "500 x 300 x 150",
+    "price": "1.68",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW112",
+    "size": "500 x 300 x 300",
+    "price": "0.86",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW68",
+    "size": "500 x 356 x 356",
+    "price": "1.59",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASB504",
+    "size": "500 x 400 x 150",
+    "price": "1.09",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW69",
+    "size": "500 x 400 x 250",
+    "price": "1.92",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW114",
+    "size": "500 x 400 x 300",
+    "price": "1.99",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW70",
+    "size": "500 x 400 x 400",
+    "price": "2.08",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW149B",
+    "size": "500 x 500 x 400",
+    "price": "2.71",
+    "packet_size": "20"
+  },
+  {
+    "code": "ASW79",
+    "size": "500 x 500 x 500",
+    "price": "2.20",
+    "packet_size": "25"
+  },
+  {
+    "code": "CASW200",
+    "size": "518 x 398 x 374",
+    "price": "1.65",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW187",
+    "size": "520 x 250 x 80",
+    "price": "0.92",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW230B",
+    "size": "550 x 200 x 400",
+    "price": "1.25",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASB553",
+    "size": "550 x 350 x 100",
+    "price": "1.15",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW237B",
+    "size": "550 x 450 x 450",
+    "price": "2.26",
+    "packet_size": "20"
+  },
+  {
+    "code": "ASW238B",
+    "size": "575 x 425 x 475",
+    "price": "2.29",
+    "packet_size": "20"
+  },
+  {
+    "code": "ASW223B",
+    "size": "600 x 100 x 600",
+    "price": "1.32",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW232B",
+    "size": "600 x 150 x 450",
+    "price": "1.13",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW204",
+    "size": "600 x 200 x 100",
+    "price": "0.93",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW115",
+    "size": "600 x 300 x 300",
+    "price": "1.51",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW116",
+    "size": "600 x 400 x 200",
+    "price": "1.53",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW74",
+    "size": "600 x 400 x 300",
+    "price": "2.07",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW75",
+    "size": "600 x 400 x 400",
+    "price": "2.28",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW117/Q",
+    "size": "600 x 500 x 400",
+    "price": "3.16",
+    "packet_size": "10"
+  },
+  {
+    "code": "ASW80",
+    "size": "610 x 610 x 610",
+    "price": "3.61",
+    "packet_size": "10"
+  },
+  {
+    "code": "ASW118",
+    "size": "635 x 305 x 330",
+    "price": "1.62",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW119",
+    "size": "650 x 450 x 500",
+    "price": "2.65",
+    "packet_size": "10"
+  },
+  {
+    "code": "ASB703",
+    "size": "700 x 300 x 150",
+    "price": "1.53",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW84/Q",
+    "size": "800 x 500 x 400",
+    "price": "3.97",
+    "packet_size": "10"
+  },
+  {
+    "code": "ASW156",
+    "size": "800 x 600 x 300",
+    "price": "3.97",
+    "packet_size": "10"
+  },
+  {
+    "code": "ASW157",
+    "size": "800 x 600 x 400",
+    "price": "4.54",
+    "packet_size": "10"
+  },
+  {
+    "code": "ASW122",
+    "size": "1000 x 500 x 500",
+    "price": "4.75",
+    "packet_size": "10"
+  },
+  {
+    "code": "ASW06",
+    "size": "229 x 170 x 170",
+    "price": "",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW341B",
+    "size": "300 x 200 x 170",
+    "price": "0.80",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW66",
+    "size": "480 x 280 x 330",
+    "price": "2.44",
+    "packet_size": "25"
+  },
+  {
+    "code": "ABB15/B",
+    "size": "179 x 119 x 250",
+    "price": "0.66",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW00",
+    "size": "200 x 140 x 140",
+    "price": "0.60",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW66",
+    "size": "200 x 200 x 200",
+    "price": "0.74",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW141",
+    "size": "225 x 225 x 200",
+    "price": "0.99",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW90",
+    "size": "229 x 152 x 152",
+    "price": "0.69",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW142",
+    "size": "245 x 180 x 170",
+    "price": "0.92",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW67",
+    "size": "250 x 200 x 150",
+    "price": "0.70",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW20",
+    "size": "254 x 203 x 152",
+    "price": "0.87",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW68",
+    "size": "254 x 254 x 102",
+    "price": "1.13",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW21",
+    "size": "254 x 254 x 254",
+    "price": "1.46",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW01",
+    "size": "265 x 225 x 180",
+    "price": "0.78",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW02",
+    "size": "272 x 200 x 300",
+    "price": "0.92",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW03",
+    "size": "280 x 170 x 180",
+    "price": "0.88",
+    "packet_size": "10"
+  },
+  {
+    "code": "ASBD302",
+    "size": "300 x 200 x 100",
+    "price": "0.86",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW69",
+    "size": "300 x 200 x 170",
+    "price": "1.36",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW70",
+    "size": "300 x 200 x 200",
+    "price": "1.51",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW13",
+    "size": "300 x 250 x 200",
+    "price": "1.84",
+    "packet_size": "10"
+  },
+  {
+    "code": "ASBD303",
+    "size": "300 x 300 x 100",
+    "price": "1.14",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW124",
+    "size": "300 x 300 x 200",
+    "price": "2.00",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW62",
+    "size": "300 x 300 x 700",
+    "price": "3.02",
+    "packet_size": "5"
+  },
+  {
+    "code": "ADW36",
+    "size": "305 x 229 x 152",
+    "price": "1.14",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW22",
+    "size": "305 x 229 x 229",
+    "price": "1.20",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW37",
+    "size": "305 x 229 x 254",
+    "price": "1.33",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW23",
+    "size": "305 x 229 x 305",
+    "price": "1.51",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW114",
+    "size": "305 x 305 x 152",
+    "price": "1.62",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW24",
+    "size": "305 x 305 x 305",
+    "price": "1.60",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW71",
+    "size": "310 x 220 x 100",
+    "price": "1.09",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW125",
+    "size": "310 x 220 x 150",
+    "price": "1.22",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW35",
+    "size": "310 x 220 x 250",
+    "price": "1.63",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW126",
+    "size": "310 x 220 x 300",
+    "price": "1.72",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW04",
+    "size": "339 x 289 x 354",
+    "price": "2.12",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW127",
+    "size": "340 x 240 x 240",
+    "price": "1.55",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW16",
+    "size": "350 x 220 x 200",
+    "price": "1.48",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW38",
+    "size": "350 x 230 x 180",
+    "price": "1.55",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW17",
+    "size": "350 x 230 x 250",
+    "price": "1.86",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW144",
+    "size": "350 x 250 x 120",
+    "price": "1.67",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW72",
+    "size": "350 x 270 x 140",
+    "price": "1.86",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW73",
+    "size": "350 x 350 x 200",
+    "price": "2.34",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW39",
+    "size": "356 x 260 x 305",
+    "price": "2.31",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW25",
+    "size": "356 x 279 x 279",
+    "price": "2.16",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW26",
+    "size": "356 x 356 x 356",
+    "price": "2.81",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW40",
+    "size": "356 x 356 x 305",
+    "price": "2.80",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW128",
+    "size": "370 x 350 x 400",
+    "price": "2.84",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW130",
+    "size": "380 x 180 x 200",
+    "price": "1.92",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW131",
+    "size": "380 x 280 x 300",
+    "price": "2.01",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW05",
+    "size": "380 x 330 x 254",
+    "price": "2.55",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW132",
+    "size": "380 x 380 x 200",
+    "price": "2.62",
+    "packet_size": "10"
+  },
+  {
+    "code": "ASBD425",
+    "size": "400 x 250 x 100",
+    "price": "1.31",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW145",
+    "size": "400 x 250 x 150",
+    "price": "1.63",
+    "packet_size": "10"
+  },
+  {
+    "code": "ASBD403",
+    "size": "400 x 300 x 100",
+    "price": "1.79",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW146",
+    "size": "400 x 300 x 200",
+    "price": "1.95",
+    "packet_size": "10"
+  },
+  {
+    "code": "ASBD404",
+    "size": "400 x 400 x 100",
+    "price": "1.69",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW147",
+    "size": "400 x 400 x 350",
+    "price": "2.29",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW63",
+    "size": "400 x 400 x 800",
+    "price": "5.46",
+    "packet_size": "5"
+  },
+  {
+    "code": "ADW64",
+    "size": "400 x 400 x 1200",
+    "price": "7.38",
+    "packet_size": "5"
+  },
+  {
+    "code": "ADW41",
+    "size": "406 x 305 x 180",
+    "price": "2.22",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW27",
+    "size": "406 x 305 x 279",
+    "price": "2.34",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW42",
+    "size": "406 x 305 x 380",
+    "price": "2.34",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW74",
+    "size": "406 x 406 x 305",
+    "price": "2.34",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW06",
+    "size": "406 x 406 x 406",
+    "price": "3.19",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW75",
+    "size": "410 x 270 x 290",
+    "price": "1.97",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW76",
+    "size": "410 x 310 x 240",
+    "price": "2.22",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW345B",
+    "size": "425 x 325 x 125",
+    "price": "2.15",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW254B",
+    "size": "425 x 425 x 275",
+    "price": "3.44",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW133",
+    "size": "430 x 290 x 350",
+    "price": "2.47",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW148",
+    "size": "430 x 310 x 150",
+    "price": "1.99",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW97",
+    "size": "430 x 310 x 250",
+    "price": "2.00",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW134",
+    "size": "430 x 310 x 300",
+    "price": "2.29",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW77",
+    "size": "430 x 350 x 200",
+    "price": "2.28",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW253",
+    "size": "430 x 350 x 320",
+    "price": "2.92",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW28",
+    "size": "432 x 305 x 178",
+    "price": "2.04",
+    "packet_size": "10"
+  },
+  {
+    "code": "ARMM02",
+    "size": "445 x 445 x 440",
+    "price": "3.37",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW135",
+    "size": "450 x 280 x 150",
+    "price": "1.66",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW344B",
+    "size": "450 x 300 x 150",
+    "price": "2.12",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW149",
+    "size": "450 x 350 x 300",
+    "price": "2.78",
+    "packet_size": "10"
+  },
+  {
+    "code": "ASBD454",
+    "size": "450 x 400 x 150",
+    "price": "1.77",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW255B",
+    "size": "450 x 400 x 300",
+    "price": "3.59",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW29",
+    "size": "457 x 305 x 254",
+    "price": "2.42",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW07",
+    "size": "457 x 305 x 305",
+    "price": "1.82",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW91",
+    "size": "457 x 457 x 254",
+    "price": "2.80",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW08",
+    "size": "457 x 457 x 305",
+    "price": "3.14",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW92",
+    "size": "457 x 457 x 405",
+    "price": "2.87",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW09",
+    "size": "457 x 457 x 457",
+    "price": "3.03",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW93",
+    "size": "457 x 457 x 508",
+    "price": "3.47",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW10",
+    "size": "457 x 457 x 610",
+    "price": "4.90",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW136",
+    "size": "460 x 260 x 260",
+    "price": "2.32",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW150",
+    "size": "460 x 325 x 160",
+    "price": "2.61",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW151",
+    "size": "475 x 375 x 370",
+    "price": "3.23",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW216B",
+    "size": "475 x 425 x 275",
+    "price": "2.79",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW118",
+    "size": "475 x 475 x 305",
+    "price": "3.10",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW18",
+    "size": "480 x 280 x 330",
+    "price": "2.84",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW342B",
+    "size": "500 x 250 x 200",
+    "price": "2.36",
+    "packet_size": "10"
+  },
+  {
+    "code": "ASBD503",
+    "size": "500 x 300 x 150",
+    "price": "1.81",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW78",
+    "size": "500 x 300 x 200",
+    "price": "2.38",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW137",
+    "size": "500 x 330 x 250",
+    "price": "2.72",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW152",
+    "size": "500 x 370 x 310",
+    "price": "3.13",
+    "packet_size": "10"
+  },
+  {
+    "code": "ASBD504",
+    "size": "500 x 400 x 150",
+    "price": "2.35",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW214B",
+    "size": "500 x 400 x 300",
+    "price": "2.90",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW79",
+    "size": "500 x 400 x 350",
+    "price": "3.14",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW119",
+    "size": "500 x 415 x 250",
+    "price": "2.85",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW120",
+    "size": "500 x 415 x 440",
+    "price": "3.15",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW184B",
+    "size": "500 x 500 x 100",
+    "price": "3.55",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW19",
+    "size": "500 x 500 x 200",
+    "price": "3.66",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW51B",
+    "size": "500 x 500 x 300",
+    "price": "4.06",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW31",
+    "size": "508 x 305 x 305",
+    "price": "2.56",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW43",
+    "size": "508 x 406 x 254",
+    "price": "2.83",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW44",
+    "size": "508 x 406 x 406",
+    "price": "3.44",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW11",
+    "size": "508 x 508 x 508",
+    "price": "3.77",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW341B",
+    "size": "525 x 225 x 225",
+    "price": "2.44",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW185B",
+    "size": "525 x 475 x 125",
+    "price": "3.34",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW45",
+    "size": "533 x 355 x 229",
+    "price": "3.23",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW46",
+    "size": "533 x 355 x 355",
+    "price": "3.43",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW121",
+    "size": "535 x 535 x 280",
+    "price": "3.56",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW80",
+    "size": "540 x 340 x 320",
+    "price": "3.31",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW98",
+    "size": "540 x 440 x 450",
+    "price": "4.31",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW153",
+    "size": "550 x 350 x 280",
+    "price": "3.64",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW218B",
+    "size": "550 x 350 x 350",
+    "price": "4.00",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW186B",
+    "size": "550 x 450 x 150",
+    "price": "3.62",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW154B",
+    "size": "550 x 450 x 350",
+    "price": "3.91",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW229B",
+    "size": "550 x 550 x 300",
+    "price": "4.31",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW138",
+    "size": "550 x 550 x 500",
+    "price": "6.67",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW12",
+    "size": "559 x 355 x 254",
+    "price": "2.62",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW94",
+    "size": "559 x 559 x 559",
+    "price": "5.61",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW81",
+    "size": "570 x 375 x 345",
+    "price": "3.82",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW187B",
+    "size": "575 x 425 x 175",
+    "price": "3.59",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW201B",
+    "size": "575 x 425 x 375",
+    "price": "4.37",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW99",
+    "size": "580 x 380 x 380",
+    "price": "4.22",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW100",
+    "size": "580 x 480 x 400",
+    "price": "4.35",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW157",
+    "size": "580 x 580 x 480",
+    "price": "6.21",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW158",
+    "size": "590 x 390 x 565",
+    "price": "5.17",
+    "packet_size": "10"
+  },
+  {
+    "code": "ARMM01",
+    "size": "595 x 445 x 440",
+    "price": "4.20",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW82",
+    "size": "600 x 300 x 300",
+    "price": "3.51",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW220B",
+    "size": "600 x 300 x 400",
+    "price": "3.71",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW160",
+    "size": "600 x 350 x 300",
+    "price": "3.69",
+    "packet_size": "10"
+  },
+  {
+    "code": "ASBD604",
+    "size": "600 x 400 x 100",
+    "price": "1.75",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW53B",
+    "size": "600 x 400 x 200",
+    "price": "3.11",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW161",
+    "size": "600 x 400 x 250",
+    "price": "3.39",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW162B",
+    "size": "600 x 400 x 400",
+    "price": "3.50",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW231B",
+    "size": "600 x 500 x 350",
+    "price": "4.47",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW54",
+    "size": "600 x 600 x 300",
+    "price": "5.01",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW163",
+    "size": "600 x 600 x 400",
+    "price": "5.39",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW83",
+    "size": "600 x 600 x 500",
+    "price": "5.67",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW84",
+    "size": "610 x 254 x 330",
+    "price": "1.94",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW47",
+    "size": "610 x 406 x 305",
+    "price": "3.54",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW33",
+    "size": "610 x 406 x 406",
+    "price": "3.62",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW080/Q",
+    "size": "610 x 457 x 305",
+    "price": "4.00",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW34",
+    "size": "610 x 457 x 457",
+    "price": "4.38",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW48",
+    "size": "610 x 508 x 406",
+    "price": "4.66",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW95",
+    "size": "610 x 610 x 457",
+    "price": "5.91",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW14",
+    "size": "610 x 610 x 610",
+    "price": "6.12",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW188B",
+    "size": "625 x 375 x 225",
+    "price": "3.73",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW263B",
+    "size": "650 x 200 x 500",
+    "price": "3.25",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW65",
+    "size": "650 x 450 x 450",
+    "price": "4.61",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW55",
+    "size": "650 x 450 x 500",
+    "price": "4.72",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADWLG03",
+    "size": "660 x 510 x 150",
+    "price": "5.98",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADWLG04",
+    "size": "660 x 510 x 250",
+    "price": "6.22",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW190B",
+    "size": "675 x 325 x 275",
+    "price": "3.69",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW116",
+    "size": "684 x 484 x 575",
+    "price": "4.25",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW265B",
+    "size": "700 x 150 x 500",
+    "price": "3.42",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW86",
+    "size": "700 x 350 x 300",
+    "price": "4.41",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW56",
+    "size": "700 x 500 x 300",
+    "price": "4.97",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW104",
+    "size": "700 x 500 x 500",
+    "price": "6.15",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW57",
+    "size": "700 x 700 x 700",
+    "price": "8.25",
+    "packet_size": "5"
+  },
+  {
+    "code": "ADW206B",
+    "size": "725 x 275 x 525",
+    "price": "3.86",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW139",
+    "size": "750 x 500 x 500",
+    "price": "6.15",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW50",
+    "size": "762 x 457 x 457",
+    "price": "6.10",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW15",
+    "size": "762 x 508 x 508",
+    "price": "6.15",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW122",
+    "size": "762 x 762 x 264",
+    "price": "5.57",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW194B",
+    "size": "775 x 225 x 375",
+    "price": "3.74",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW105",
+    "size": "780 x 380 x 300",
+    "price": "4.49",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW58",
+    "size": "780 x 580 x 600",
+    "price": "8.81",
+    "packet_size": "5"
+  },
+  {
+    "code": "ADW195B",
+    "size": "800 x 200 x 400",
+    "price": "3.62",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW209B",
+    "size": "800 x 200 x 600",
+    "price": "4.15",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW179B",
+    "size": "800 x 200 x 800",
+    "price": "4.85",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW107",
+    "size": "800 x 500 x 300",
+    "price": "5.19",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW88",
+    "size": "800 x 500 x 500",
+    "price": "5.83",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW59",
+    "size": "800 x 600 x 400",
+    "price": "7.38",
+    "packet_size": "5"
+  },
+  {
+    "code": "ADW109",
+    "size": "800 x 600 x 500",
+    "price": "9.65",
+    "packet_size": "5"
+  },
+  {
+    "code": "ADW167",
+    "size": "800 x 600 x 580",
+    "price": "10.14",
+    "packet_size": "5"
+  },
+  {
+    "code": "ADW239B",
+    "size": "825 x 275 x 575",
+    "price": "4.53",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADWLG14",
+    "size": "915 x 510 x 300",
+    "price": "8.65",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW243B",
+    "size": "925 x 175 x 675",
+    "price": "4.53",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW89",
+    "size": "1000 x 500 x 500",
+    "price": "10.65",
+    "packet_size": "5"
+  },
+  {
+    "code": "ADW111",
+    "size": "1000 x 700 x 500",
+    "price": "12.10",
+    "packet_size": "5"
+  },
+  {
+    "code": "ADW61",
+    "size": "1180 x 780 x 800",
+    "price": "14.69",
+    "packet_size": "5"
+  },
+  {
+    "code": "ATW00",
+    "size": "395 x 295 x 240",
+    "price": "6.24",
+    "packet_size": "5"
+  },
+  {
+    "code": "ATW05",
+    "size": "461 x 350 x 308",
+    "price": "8.07",
+    "packet_size": "5"
+  },
+  {
+    "code": "ATW15",
+    "size": "540 x 390 x 370",
+    "price": "12.27",
+    "packet_size": "5"
+  },
+  {
+    "code": "ATW20",
+    "size": "570 x 370 x 360",
+    "price": "12.27",
+    "packet_size": "5"
+  },
+  {
+    "code": "ATW25",
+    "size": "570 x 470 x 490",
+    "price": "16.71",
+    "packet_size": "5"
+  },
+  {
+    "code": "ATW30",
+    "size": "630 x 420 x 420",
+    "price": "15.54",
+    "packet_size": "5"
+  },
+  {
+    "code": "ATW35",
+    "size": "660 x 400 x 510",
+    "price": "14.45",
+    "packet_size": "5"
+  },
+  {
+    "code": "ATW40",
+    "size": "670 x 540 x 540",
+    "price": "19.51",
+    "packet_size": "5"
+  },
+  {
+    "code": "ATW43",
+    "size": "725 x 450 x 550",
+    "price": "14.67",
+    "packet_size": "5"
+  },
+  {
+    "code": "ATW50",
+    "size": "770 x 570 x 450",
+    "price": "19.50",
+    "packet_size": "5"
+  },
+  {
+    "code": "ASW00",
+    "size": "102 x 102 x 102",
+    "price": "0.30",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW01",
+    "size": "127 x 127 x 127",
+    "price": "0.41",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW02",
+    "size": "140 x 140 x 76",
+    "price": "0.54",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW47",
+    "size": "152 x 127 x 102",
+    "price": "0.29",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW03",
+    "size": "152 x 152 x 152",
+    "price": "0.43",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW04",
+    "size": "178 x 140 x 76",
+    "price": "0.46",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW30",
+    "size": "178 x 178 x 178",
+    "price": "0.70",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW05",
+    "size": "180 x 130 x 100",
+    "price": "0.53",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW46",
+    "size": "180 x 130 x 120",
+    "price": "0.57",
+    "packet_size": "25"
+  },
+  {
+    "code": "ADW010",
+    "size": "152 x 152 x 152",
+    "price": "0.53",
+    "packet_size": "15"
+  },
+  {
+    "code": "ABB15/B",
+    "size": "179 x 119 x 250",
+    "price": "0.66",
+    "packet_size": "10"
+  },
+  {
+    "code": "ASW123",
+    "size": "200 x 100 x 100",
+    "price": "0.44",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW92",
+    "size": "200 x 140 x 140",
+    "price": "0.35",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW158",
+    "size": "200 x 190 x 165",
+    "price": "0.45",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW94",
+    "size": "200 x 200 x 110",
+    "price": "0.56",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW49",
+    "size": "203 x 153 x 152",
+    "price": "0.43",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW45",
+    "size": "203 x 203 x 203",
+    "price": "0.53",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW159",
+    "size": "215 x 150 x 55",
+    "price": "0.66",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW160",
+    "size": "215 x 150 x 105",
+    "price": "0.65",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW337B",
+    "size": "215 x 180 x 105",
+    "price": "0.66",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW31",
+    "size": "229 x 152 x 152",
+    "price": "0.42",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW163",
+    "size": "229 x 165 x 140",
+    "price": "0.60",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW07",
+    "size": "229 x 229 x 127",
+    "price": "0.62",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW143",
+    "size": "229 x 229 x 140",
+    "price": "0.71",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW164",
+    "size": "230 x 190 x 120",
+    "price": "0.66",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW165",
+    "size": "230 x 190 x 160",
+    "price": "0.74",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW124",
+    "size": "250 x 100 x 100",
+    "price": "0.57",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASB251",
+    "size": "250 x 150 x 100",
+    "price": "0.47",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW126",
+    "size": "250 x 150 x 150",
+    "price": "0.60",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW285B",
+    "size": "250 x 150 x 300",
+    "price": "0.83",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW96",
+    "size": "250 x 250 x 190",
+    "price": "0.77",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW09",
+    "size": "254 x 203 x 203",
+    "price": "0.51",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW95",
+    "size": "254 x 216 x 152",
+    "price": "0.58",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW50",
+    "size": "254 x 254 x 102",
+    "price": "0.68",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW10",
+    "size": "254 x 254 x 254",
+    "price": "0.86",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW167",
+    "size": "260 x 200 x 180",
+    "price": "0.74",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW97",
+    "size": "270 x 130 x 145",
+    "price": "0.45",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW191",
+    "size": "270 x 180 x 345",
+    "price": "0.77",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW99",
+    "size": "270 x 190 x 120",
+    "price": "0.57",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW100",
+    "size": "270 x 260 x 290",
+    "price": "0.80",
+    "packet_size": "25"
+  },
+  {
+    "code": "ASW51",
+    "size": "280 x 229 x 203",
+    "price": "1.23",
+    "packet_size": "25"
+  },
+  {
+    "code": "ADW00",
+    "size": "200 x 140 x 140",
+    "price": "0.60",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW66",
+    "size": "200 x 200 x 200",
+    "price": "0.74",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW141",
+    "size": "225 x 225 x 200",
+    "price": "0.99",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW90",
+    "size": "229 x 152 x 152",
+    "price": "0.69",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW142",
+    "size": "245 x 180 x 170",
+    "price": "0.92",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW67",
+    "size": "250 x 200 x 150",
+    "price": "0.70",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW20",
+    "size": "254 x 203 x 152",
+    "price": "0.87",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW68",
+    "size": "254 x 254 x 102",
+    "price": "1.13",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW21",
+    "size": "254 x 254 x 254",
+    "price": "1.46",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW01",
+    "size": "265 x 225 x 180",
+    "price": "0.78",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW02",
+    "size": "272 x 200 x 300",
+    "price": "0.92",
+    "packet_size": "10"
+  },
+  {
+    "code": "ADW03",
+    "size": "280 x 170 x 180",
+    "price": "0.88",
+    "packet_size": "10"
   }
 ]

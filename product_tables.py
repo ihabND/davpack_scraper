@@ -4,9 +4,16 @@ from bs4 import BeautifulSoup
 
 with open("json_files/inner_product_links.json", "r", encoding="utf-8") as file:
     product_page_links = json.load(file)
+print(len(product_page_links), "links to scrape")
 
+counter = 0
+total_boxes = []
 for products_link in product_page_links:
-    product_table_page = requests.get(products_link, impersonate="chrome", timeout=60)
+    print("Scraping", counter)
+    counter += 1
+    # if counter == 10:
+    #     break
+    product_table_page = requests.get(products_link, impersonate="chrome", timeout=120)
     product_table_content = BeautifulSoup(product_table_page.text, 'html.parser')
     table = product_table_content.find("div", {"class" : "Table"})
     # table_off_rows = table.find_all("div", {"class" : "off"})
@@ -23,21 +30,20 @@ for products_link in product_page_links:
     product_packet_size = table.find_all("div", {"class" : "UnitDesc_Code"})
     product_packet_size = [code.span.text for code in product_packet_size]
 
-    break
+    product_info = zip(product_codes, product_sizes, product_prices, product_packet_size)
+    product_info = list(product_info)
 
-product_info = zip(product_codes, product_sizes, product_prices, product_packet_size)
-product_info = list(product_info)
+    boxes = []
+    for box in product_info:
+        box = {"code" : box[0],
+            "size" : box[1],
+            "price" : box[2],
+            "packet_size" : box[3]}
+        boxes.append(box)
+    total_boxes.extend(boxes)
 
-boxes = []
-for box in product_info:
-    box = {"code" : box[0],
-        "size" : box[1],
-        "price" : box[2],
-        "packet_size" : box[3]}
-    boxes.append(box)
-
-with open("db/database.json", "w", encoding="utf-8") as file:
-    json.dump(boxes, file, indent=2)
+    with open("db/database.json", "w", encoding="utf-8") as file:
+        json.dump(total_boxes, file, indent=2)
 
 print(boxes)
 
