@@ -28,14 +28,16 @@ for products_link in product_page_links:
 product_info = zip(product_codes, product_sizes, product_prices, product_packet_size)
 product_info = list(product_info)
 
-# samo petlja umesto ovog ispod
-box = {"code" : product_info[0][0], # {'code': 'AEB020', 'size': '152 x 152 x 152', 'price': '0.18', 'packet_size': '25'}
-       "size" : product_info[0][1],
-       "price" : product_info[0][2],
-       "packet_size" : product_info[0][3]}
-print(box)
+boxes = []
+for box in product_info:
+    box = {"code" : box[0],
+        "size" : box[1],
+        "price" : box[2],
+        "packet_size" : box[3]}
+    boxes.append(box)
 
-# print(product_codes)  
-# print(product_sizes)
-# print(product_prices)
-# print(product_packet_size)
+with open("db/database.json", "w", encoding="utf-8") as file:
+    json.dump(boxes, file, indent=2)
+
+print(boxes)
+
