@@ -1,6 +1,10 @@
 import json
 from curl_cffi import requests
 from bs4 import BeautifulSoup
+from tinydb import TinyDB
+
+db = TinyDB('boxes_db.json')
+boxes_db_table = db.table('boxes')
 
 with open("json_files/inner_product_links.json", "r", encoding="utf-8") as file:
     product_page_links = json.load(file)
@@ -41,6 +45,7 @@ for products_link in product_page_links:
             "packet_size" : box_info[3]}
         if box not in total_boxes:
             boxes.append(box)
+            boxes_db_table.insert(box)
     total_boxes.extend(boxes)
 
     with open("db/database.json", "w", encoding="utf-8") as file:
