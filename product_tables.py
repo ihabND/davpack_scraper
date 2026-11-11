@@ -34,12 +34,13 @@ for products_link in product_page_links:
     product_info = list(product_info)
 
     boxes = []
-    for box in product_info:
-        box = {"code" : box[0],
-            "size" : box[1],
-            "price" : box[2],
-            "packet_size" : box[3]}
-        boxes.append(box)
+    for box_info in product_info:
+        box = {"code" : box_info[0],
+            "size" : box_info[1],
+            "price" : box_info[2],
+            "packet_size" : box_info[3]}
+        if box not in total_boxes:
+            boxes.append(box)
     total_boxes.extend(boxes)
 
     with open("db/database.json", "w", encoding="utf-8") as file:
