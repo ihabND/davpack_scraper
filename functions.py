@@ -34,3 +34,9 @@ def get_links(base_url, category_links, selector, save_location):
         all_subcategory_links.extend(subcategory_links)
         write_to_json(save_location, all_subcategory_links)
     return all_subcategory_links
+
+
+def get_column_from_table(table, selector):
+    column_data = table.find_all("div", selector)
+    column_data = [code.span.text for code in column_data]
+    return column_data
