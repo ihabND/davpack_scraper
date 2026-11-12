@@ -40,6 +40,7 @@ def get_table(products_link):
     product_table_page = requests.get(products_link, impersonate="chrome", timeout=120)
     product_table_content = BeautifulSoup(product_table_page.text, "html.parser")
     table = product_table_content.find("div", {"class": "Table"})
+    return table
 
 
 def parse_from_table(
