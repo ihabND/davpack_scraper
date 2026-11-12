@@ -1,9 +1,10 @@
-from tinydb import TinyDB
+from tinydb import TinyDB, Query
 
 from functions import *
 
 base_url = "https://www.davpack.co.uk/"
 db = TinyDB("db/boxes_db.json")
+Box = Query()
 boxes_db_table = db.table("boxes")
 
 category_links = get_main_categories(base_url)
@@ -32,4 +33,5 @@ for products_link in product_page_links:
 
     for box_info in product_info:
         box = create_box(box_info)
-        boxes_db_table.insert(box)
+        if not boxes_db_table.contains(Box.code == box["code"]):
+            boxes_db_table.insert(box)
