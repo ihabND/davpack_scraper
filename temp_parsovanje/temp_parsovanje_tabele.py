@@ -10,4 +10,10 @@ url = "https://www.davpack.co.uk/cardboard-boxes/standard-cardboard-boxes/econob
 table = get_table(url)
 
 prices = table.find_all("div", {"class" : "vc"})
+prices = [price.div for price in prices]
+
+span = table.find_all("span", {"class" : "pvgh"})
+
+# print(table)
 print(prices)
+print(span)

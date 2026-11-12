@@ -39,7 +39,7 @@ def get_links(base_url, category_links, selector, save_location):
 def get_table(products_link):
     product_table_page = requests.get(products_link, impersonate="chrome", timeout=120)
     product_table_content = BeautifulSoup(product_table_page.text, "html.parser")
-    table = product_table_content.find("div", {"class": "Table"})
+    table = product_table_content.find("div", {"id": "ListBtm"})
     return table
 
 
