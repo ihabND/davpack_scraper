@@ -3,7 +3,7 @@ from tinydb import TinyDB
 from functions import *
 
 base_url = "https://www.davpack.co.uk/"
-db = TinyDB("boxes_db.json")
+db = TinyDB("db/boxes_db.json")
 boxes_db_table = db.table("boxes")
 
 category_links = get_main_categories(base_url)
@@ -23,8 +23,6 @@ product_page_links = get_links(
     save_location="json_files/inner_product_links.json",
 )
 
-total_boxes = []
-temp_boxes = []
 for products_link in product_page_links:
     if "/cardboard-boxes/" not in products_link:
         break
@@ -34,9 +32,4 @@ for products_link in product_page_links:
 
     for box_info in product_info:
         box = create_box(box_info)
-        if box not in total_boxes:
-            temp_boxes.append(box)
-            boxes_db_table.insert(box)
-    total_boxes.extend(temp_boxes)
-
-    write_to_json("db/database.json", total_boxes)
+        boxes_db_table.insert(box)
