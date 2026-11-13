@@ -12774,6 +12774,18 @@
             "type": "",
             "price": "4-7 Days",
             "packet_size": "5"
+        },
+        "1826": {
+            "code": "Ref",
+            "size": "L x W x H (mm)",
+            "type": "Type",
+            "price": "Box From",
+            "packet_size": "Pack",
+            "price_range": {
+                "1-4": "5.94",
+                "5-9": "5.35",
+                "10+": "4.46"
+            }
         }
     }
 }

@@ -51,6 +51,7 @@ def parse_from_table(
     product_type = get_column_from_table(table, {"class": "Answer_DROPDOWN2"})
     product_prices = get_column_from_table(table, {"class": "Answer_DROPDOWN4"})
     product_packet_size = get_column_from_table(table, {"class": "UnitDesc_Code"})
+    product_price_ranges = get_price_ranges(table)
     product_info = list(
         zip(
             product_codes,
@@ -58,6 +59,7 @@ def parse_from_table(
             product_type,
             product_prices,
             product_packet_size,
+            product_price_ranges
         )
     )
     return product_info
@@ -70,6 +72,7 @@ def create_box(box_info):
         "type": box_info[2],
         "price": box_info[3],
         "packet_size": box_info[4],
+        "price_range": box_info[5]
     }
     return box
 
@@ -78,3 +81,29 @@ def get_column_from_table(table, selector):
     column_data = table.find_all("div", selector)
     column_data = [code.span.text for code in column_data]
     return column_data
+
+
+def get_price_ranges(table):
+    prices = table.find_all("div", {"class" : "vc"})
+    price_groups = []
+    price_groups_dict = []
+    for price in prices:
+        price_group = price.find_all("div")
+        price_group = [temp.text.strip() for temp in price_group]
+        price_groups.append(price_group)
+
+    spans = table.find_all("span", {"class" : "pvgh"})
+    spans = [temp.text.strip() for temp in spans]
+
+    for price_group in price_groups:
+        if len(price_group) == 1:
+            new_price_group = {spans[0] : price_group[0],
+                            spans[1] : price_group[0],
+                            spans[2] : price_group[0]}
+        else:
+            new_price_group = {spans[0] : price_group[0],
+                            spans[1] : price_group[1],
+                            spans[2] : price_group[2]}
+        price_groups_dict.append(new_price_group)
+    price_groups_dict = price_groups_dict[1:]
+    return price_groups_dict
