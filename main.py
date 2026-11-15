@@ -32,6 +32,6 @@ for products_link in product_page_links:
     product_info = parse_from_table(table)
 
     for box_info in product_info:
-        box = create_box(box_info)
+        box = create_box(box_info, products_link)
         if not boxes_db_table.contains(Box.code == box["code"]):
             boxes_db_table.insert(box)

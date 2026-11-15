@@ -45,7 +45,7 @@ def get_table(products_link):
 
 def parse_from_table(
     table,
-):  # TODO: parsovanje nije kompletno (cijene za ranges nedostaju)
+):
     product_codes = get_column_from_table(table, {"class": "Code"})
     product_sizes = get_column_from_table(table, {"class": "Answer_DROPDOWN"})
     product_type = get_column_from_table(table, {"class": "Answer_DROPDOWN2"})
@@ -65,14 +65,15 @@ def parse_from_table(
     return product_info
 
 
-def create_box(box_info):
+def create_box(box_info, page_link):
     box = {
         "code": box_info[0],
         "size": box_info[1],
         "type": box_info[2],
         "price": box_info[3],
         "packet_size": box_info[4],
-        "price_range": box_info[5]
+        "price_range": box_info[5],
+        "page_url": page_link
     }
     return box
 
@@ -105,5 +106,5 @@ def get_price_ranges(table):
                             spans[1] : price_group[1],
                             spans[2] : price_group[2]}
         price_groups_dict.append(new_price_group)
-    price_groups_dict = price_groups_dict[1:]
+    price_groups_dict = price_groups_dict
     return price_groups_dict
