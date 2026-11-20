@@ -66,30 +66,25 @@ def parse_from_table(
             product_price_ranges
         )
     )
-    print(table_link)
+    #print(table_link)
     return product_info
 
 
 def create_box(box_info, page_link):
     box_code = box_info[0]
     box_size_mm = box_info[1]
-    
     box_type = box_info[2]
-    type_check = re.fullmatch(r"[a-zA-Z]+\s-\s[a-zA-Z]+", box_type)
-    if type_check:
-        box_type = box_info[2]
-        size_inch = box_info[3]
-    else:
-        box_type = None
-        size_inch = box_info[2]     
-    
+    size_inch = box_info[3]
+    box_price = box_info[4]
+    box_packet_size = box_info[5]  
+
     box = {
         "code": box_code,
         "size_mm": box_size_mm,
         "type": box_type,
         "size_inch": size_inch,
-        "price": box_info[4],
-        "packet_size": box_info[5],
+        "price": box_price,
+        "packet_size": box_packet_size,
         "price_range": box_info[6],
         "page_url": page_link
     }
