@@ -24,8 +24,11 @@ product_page_links = get_links(
     save_location="json_files/inner_product_links.json",
 )
 
+links_to_scrape = ["/cardboard-boxes/standard-cardboard-boxes", 
+                   "/cardboard-boxes/single-wall", 
+                   "/cardboard-boxes/double-wall"]
 for products_link in product_page_links:
-    if "/cardboard-boxes/" not in products_link:
+    if not any(link in products_link for link in links_to_scrape):
         break
 
     table = get_table(products_link)

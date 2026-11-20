@@ -1,4 +1,5 @@
 import json
+import re
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
@@ -48,20 +49,20 @@ def parse_from_table(
     table_link
 ):
     product_codes = get_column_from_table(table, {"class": "Code"})
-    product_sizes = get_column_from_table(table, {"class": "Answer_DROPDOWN"})
-    product_type = get_column_from_table(table, {"class": "Answer_DROPDOWN2"})
-    size_inches = get_column_from_table(table, {"class": "Answer_DROPDOWN3"})
-    product_prices = get_column_from_table(table, {"class": "Answer_DROPDOWN4"})
-    product_packet_size = get_column_from_table(table, {"class": "UnitDesc_Code"})
+    product_sizes_mm = get_column_from_table(table, {"class": "Answer_DROPDOWN"})
+    column_1 = get_column_from_table(table, {"class": "Answer_DROPDOWN2"})
+    column_2 = get_column_from_table(table, {"class": "Answer_DROPDOWN3"})
+    column_3 = get_column_from_table(table, {"class": "Answer_DROPDOWN4"})
+    column_4 = get_column_from_table(table, {"class": "UnitDesc_Code"})
     product_price_ranges = get_price_ranges(table)
     product_info = list(
         zip(
             product_codes,
-            product_sizes,
-            product_type,
-            size_inches,
-            product_prices,
-            product_packet_size,
+            product_sizes_mm,
+            column_1,
+            column_2,
+            column_3,
+            column_4,
             product_price_ranges
         )
     )
@@ -70,11 +71,23 @@ def parse_from_table(
 
 
 def create_box(box_info, page_link):
+    box_code = box_info[0]
+    box_size_mm = box_info[1]
+    
+    box_type = box_info[2]
+    type_check = re.fullmatch(r"[a-zA-Z]+\s-\s[a-zA-Z]+", box_type)
+    if type_check:
+        box_type = box_info[2]
+        size_inch = box_info[3]
+    else:
+        box_type = None
+        size_inch = box_info[2]     
+    
     box = {
-        "code": box_info[0],
-        "size": box_info[1],
-        "type": box_info[2],
-        "size_inch": box_info[3],
+        "code": box_code,
+        "size_mm": box_size_mm,
+        "type": box_type,
+        "size_inch": size_inch,
         "price": box_info[4],
         "packet_size": box_info[5],
         "price_range": box_info[6],
