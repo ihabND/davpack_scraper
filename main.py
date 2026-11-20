@@ -29,7 +29,7 @@ for products_link in product_page_links:
         break
 
     table = get_table(products_link)
-    product_info = parse_from_table(table)
+    product_info = parse_from_table(table, products_link)
 
     for box_info in product_info:
         box = create_box(box_info, products_link)

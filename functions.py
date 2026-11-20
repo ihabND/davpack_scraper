@@ -45,10 +45,12 @@ def get_table(products_link):
 
 def parse_from_table(
     table,
+    table_link
 ):
     product_codes = get_column_from_table(table, {"class": "Code"})
     product_sizes = get_column_from_table(table, {"class": "Answer_DROPDOWN"})
     product_type = get_column_from_table(table, {"class": "Answer_DROPDOWN2"})
+    size_inches = get_column_from_table(table, {"class": "Answer_DROPDOWN3"})
     product_prices = get_column_from_table(table, {"class": "Answer_DROPDOWN4"})
     product_packet_size = get_column_from_table(table, {"class": "UnitDesc_Code"})
     product_price_ranges = get_price_ranges(table)
@@ -57,11 +59,13 @@ def parse_from_table(
             product_codes,
             product_sizes,
             product_type,
+            size_inches,
             product_prices,
             product_packet_size,
             product_price_ranges
         )
     )
+    print(table_link)
     return product_info
 
 
@@ -70,9 +74,10 @@ def create_box(box_info, page_link):
         "code": box_info[0],
         "size": box_info[1],
         "type": box_info[2],
-        "price": box_info[3],
-        "packet_size": box_info[4],
-        "price_range": box_info[5],
+        "size_inch": box_info[3],
+        "price": box_info[4],
+        "packet_size": box_info[5],
+        "price_range": box_info[6],
         "page_url": page_link
     }
     return box
