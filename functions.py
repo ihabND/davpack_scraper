@@ -102,9 +102,13 @@ def get_price_ranges(table):
                             spans[1] : price_group[0],
                             spans[2] : price_group[0]}
         else:
-            new_price_group = {spans[0] : price_group[0],
-                            spans[1] : price_group[1],
-                            spans[2] : price_group[2]}
+            # new_price_group = {spans[0] : price_group[0],
+            #                 spans[1] : price_group[1],
+            #                 spans[2] : price_group[2]}
+            new_price_group = dict()
+            zipped_data = list(zip(spans, price_group))
+            for data_pair in zipped_data:
+                new_price_group[data_pair[0]] = data_pair[1]
         price_groups_dict.append(new_price_group)
     price_groups_dict = price_groups_dict
     return price_groups_dict
